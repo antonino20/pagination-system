@@ -1,0 +1,16 @@
+
+
+<ul class="pag">
+  <li><a href="#">1</li>
+  <li><a href="#">2</li>
+  <li><a href="#">3</li>
+</ul>
+<script type="text/javascript">
+
+  ul = document.querySelector(".pag");
+
+  ul.addEventListener("click", function(e){
+    console.log(e.target);
+    t = e.target;
+  }, false)
+</script>
